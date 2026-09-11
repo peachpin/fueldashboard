@@ -1,0 +1,8 @@
+date,coverage_status,requested_start,requested_end,observed_transactions,evidence
+2026-09-05,COMPLETE,2026-09-05,2026-09-11,94,pagination_complete:next_disabled_last_page
+2026-09-06,COMPLETE,2026-09-05,2026-09-11,91,pagination_complete:next_disabled_last_page
+2026-09-07,COMPLETE,2026-09-05,2026-09-11,96,pagination_complete:next_disabled_last_page
+2026-09-08,COMPLETE,2026-09-05,2026-09-11,87,pagination_complete:next_disabled_last_page
+2026-09-09,COMPLETE,2026-09-05,2026-09-11,91,pagination_complete:next_disabled_last_page
+2026-09-10,COMPLETE,2026-09-05,2026-09-11,88,pagination_complete:next_disabled_last_page
+2026-09-11,COMPLETE,2026-09-05,2026-09-11,85,pagination_complete:next_disabled_last_page
