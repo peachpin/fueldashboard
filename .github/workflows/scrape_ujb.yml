@@ -7,6 +7,9 @@ on:
     - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
+permissions: 
+  contents: write
+
 # Hindari dua scraper menulis ujb_history.csv pada branch yang sama bersamaan.
 concurrency:
   group: ujb-scrape-${{ github.ref }}
