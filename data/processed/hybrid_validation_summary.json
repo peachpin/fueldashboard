@@ -1,36 +1,36 @@
 {
-  "generated_at_utc": "2026-08-24T07:46:39.543328+00:00",
+  "generated_at_utc": "2026-09-11T06:51:08.105630+00:00",
   "data_source_mode": "hybrid",
   "passed": true,
-  "hybrid_selected_rows": 87831,
-  "hybrid_selected_liter": 10507726.020201001,
-  "audit_selected_liter": 10507726.020201001,
-  "selected_liter_abs_diff": 0.0,
+  "hybrid_selected_rows": 87854,
+  "hybrid_selected_liter": 10518267.050200999,
+  "audit_selected_liter": 10518267.050201,
+  "selected_liter_abs_diff": 1.862645149230957e-09,
   "source_summary": {
     "EXCEL": {
       "rows": 87230,
       "fuel_liter": 10471030.610201001,
-      "valid_rows": 74278
+      "valid_rows": 74277
     },
     "UJB": {
-      "rows": 601,
-      "fuel_liter": 36695.41,
-      "valid_rows": 594
+      "rows": 624,
+      "fuel_liter": 47236.44,
+      "valid_rows": 609
     }
   },
   "ujb_history": {
-    "rows": 601,
-    "unique_event_keys": 601,
+    "rows": 1233,
+    "unique_event_keys": 1233,
     "coverage_start": "2026-08-18",
-    "coverage_end": "2026-08-24",
-    "coverage_days": 7
+    "coverage_end": "2026-09-11",
+    "coverage_days": 14
   },
   "forecast_coverage": {
     "calendar_start": "2025-01-01",
-    "calendar_end": "2026-08-24",
-    "gap_days": 27,
+    "calendar_end": "2026-09-11",
+    "gap_days": 45,
     "gap_start": "2026-07-22",
-    "gap_end": "2026-08-17",
+    "gap_end": "2026-09-04",
     "gap_values_are_nan": true,
     "training_segment": {
       "start_date": "2025-01-01",
@@ -39,8 +39,8 @@
       "contains_nan": false
     },
     "latest_operational_segment": {
-      "start_date": "2026-08-18",
-      "end_date": "2026-08-24",
+      "start_date": "2026-09-05",
+      "end_date": "2026-09-11",
       "n_days": 7,
       "contains_nan": false,
       "model_ready_30d": false
@@ -58,21 +58,27 @@
       },
       {
         "segment_id": 2,
-        "start_date": "2026-08-18",
-        "end_date": "2026-08-24",
+        "start_date": "2026-09-05",
+        "end_date": "2026-09-11",
         "n_days": 7,
-        "total_liter": 36695.409999999996,
+        "total_liter": 47236.44,
         "source_systems": "UJB",
         "model_ready": false,
         "is_latest": true
       }
     ]
   },
+  "source_coverage_status_counts": {
+    "EXCEL_COVERED": 567,
+    "SOURCE_GAP": 45,
+    "UJB_COMPLETE": 7
+  },
   "violations": {
     "direct_category_multi_source_groups": 0,
     "modul_multi_source_groups": 0,
     "duplicate_selected_ujb_event_key_rows": 0,
     "unapproved_ujb_selected_rows": 0,
+    "non_complete_ujb_selected_rows": 0,
     "blank_source_selection_reason_rows": 0,
     "selected_liter_audit_mismatch": false,
     "forecast_gap_was_imputed": false,
@@ -83,6 +89,7 @@
   "source_reason_summary": [
     {
       "source_system": "EXCEL",
+      "coverage_status": "NOT_APPLICABLE",
       "selection_reason": "EXCEL_MODUL_AUTHORITATIVE_WHEN_PRESENT",
       "input_rows": 444,
       "selected_rows": 444,
@@ -93,6 +100,7 @@
     },
     {
       "source_system": "EXCEL",
+      "coverage_status": "NOT_APPLICABLE",
       "selection_reason": "EXCEL_NON_UJB_CATEGORY",
       "input_rows": 34682,
       "selected_rows": 34682,
@@ -103,6 +111,7 @@
     },
     {
       "source_system": "EXCEL",
+      "coverage_status": "NOT_APPLICABLE",
       "selection_reason": "EXCEL_OUTSIDE_UJB_COVERAGE",
       "input_rows": 49832,
       "selected_rows": 49832,
@@ -113,6 +122,7 @@
     },
     {
       "source_system": "EXCEL",
+      "coverage_status": "NOT_APPLICABLE",
       "selection_reason": "EXCEL_SUPPORT_RETAINED_FORKLIFT_BRIDGE",
       "input_rows": 2272,
       "selected_rows": 2272,
@@ -123,33 +133,47 @@
     },
     {
       "source_system": "UJB",
+      "coverage_status": "COMPLETE",
       "selection_reason": "UJB_FORKLIFT_FALLBACK_NO_EXCEL_SUPPORT",
-      "input_rows": 7,
-      "selected_rows": 7,
+      "input_rows": 9,
+      "selected_rows": 9,
       "suppressed_rows": 0,
-      "input_liter": 176.47,
-      "selected_liter": 176.47,
+      "input_liter": 217.6,
+      "selected_liter": 217.6,
       "suppressed_liter": 0.0
     },
     {
       "source_system": "UJB",
-      "selection_reason": "UJB_MODUL_FALLBACK_NO_EXCEL_MODUL",
-      "input_rows": 1,
-      "selected_rows": 1,
-      "suppressed_rows": 0,
-      "input_liter": 40.0,
-      "selected_liter": 40.0,
-      "suppressed_liter": 0.0
-    },
-    {
-      "source_system": "UJB",
+      "coverage_status": "COMPLETE",
       "selection_reason": "UJB_PREFERRED_ON_COVERED_DATE",
-      "input_rows": 593,
-      "selected_rows": 593,
+      "input_rows": 615,
+      "selected_rows": 615,
       "suppressed_rows": 0,
-      "input_liter": 36478.94,
-      "selected_liter": 36478.94,
+      "input_liter": 47018.840000000004,
+      "selected_liter": 47018.840000000004,
       "suppressed_liter": 0.0
+    },
+    {
+      "source_system": "UJB",
+      "coverage_status": "COMPLETE",
+      "selection_reason": "UJB_UNAPPROVED_CATEGORY_SUPPRESSED",
+      "input_rows": 8,
+      "selected_rows": 0,
+      "suppressed_rows": 8,
+      "input_liter": 393.52,
+      "selected_liter": 0.0,
+      "suppressed_liter": 393.52
+    },
+    {
+      "source_system": "UJB",
+      "coverage_status": "UNKNOWN",
+      "selection_reason": "UJB_UNKNOWN_COVERAGE_SUPPRESSED",
+      "input_rows": 601,
+      "selected_rows": 0,
+      "suppressed_rows": 601,
+      "input_liter": 36695.41,
+      "selected_liter": 0.0,
+      "suppressed_liter": 36695.41
     }
   ]
 }
