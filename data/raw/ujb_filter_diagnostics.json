@@ -4,16 +4,16 @@
     "requested_start": "2026-09-06",
     "requested_end": "2026-09-12",
     "observed_start": "2026-09-06",
-    "observed_end": "2026-09-11",
-    "observed_days": 6,
+    "observed_end": "2026-09-12",
+    "observed_days": 7,
     "requested_days": 7,
     "reaches_requested_start": true,
-    "reaches_requested_end": false
+    "reaches_requested_end": true
   },
   "pagination": {
     "complete": true,
     "termination_reason": "next_disabled_last_page",
-    "pages_read": 6
+    "pages_read": 7
   },
   "before": {
     "url": "https://dashboard.ujbgroup.com/report/custom_jict",
