@@ -8,9 +8,10 @@ date,coverage_status,requested_start,requested_end,observed_transactions,evidenc
 2026-09-11,COMPLETE,2026-09-11 00:00:00,2026-09-17 00:00:00,92,pagination_complete:next_disabled_last_page
 2026-09-12,COMPLETE,2026-09-12 00:00:00,2026-09-18 00:00:00,91,pagination_complete:next_disabled_last_page
 2026-09-13,COMPLETE,2026-09-13 00:00:00,2026-09-19 00:00:00,85,pagination_complete:next_disabled_last_page
-2026-09-14,COMPLETE,2026-09-13 00:00:00,2026-09-19 00:00:00,90,pagination_complete:next_disabled_last_page
-2026-09-15,COMPLETE,2026-09-13 00:00:00,2026-09-19 00:00:00,83,pagination_complete:next_disabled_last_page
-2026-09-16,COMPLETE,2026-09-13 00:00:00,2026-09-19 00:00:00,91,pagination_complete:next_disabled_last_page
-2026-09-17,COMPLETE,2026-09-13 00:00:00,2026-09-19 00:00:00,84,pagination_complete:next_disabled_last_page
-2026-09-18,COMPLETE,2026-09-13 00:00:00,2026-09-19 00:00:00,93,pagination_complete:next_disabled_last_page
-2026-09-19,COMPLETE,2026-09-13 00:00:00,2026-09-19 00:00:00,87,pagination_complete:next_disabled_last_page
+2026-09-14,FAILED,2026-09-14 00:00:00,2026-09-20 00:00:00,0,pagination_failed:content_unchanged_after_next
+2026-09-15,FAILED,2026-09-14 00:00:00,2026-09-20 00:00:00,0,pagination_failed:content_unchanged_after_next
+2026-09-16,FAILED,2026-09-14 00:00:00,2026-09-20 00:00:00,0,pagination_failed:content_unchanged_after_next
+2026-09-17,FAILED,2026-09-14 00:00:00,2026-09-20 00:00:00,0,pagination_failed:content_unchanged_after_next
+2026-09-18,FAILED,2026-09-14 00:00:00,2026-09-20 00:00:00,78,pagination_failed:content_unchanged_after_next
+2026-09-19,FAILED,2026-09-14 00:00:00,2026-09-20 00:00:00,122,pagination_failed:content_unchanged_after_next
+2026-09-20,FAILED,2026-09-14 00:00:00,2026-09-20 00:00:00,0,pagination_failed:content_unchanged_after_next
