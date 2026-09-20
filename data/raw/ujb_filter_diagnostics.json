@@ -30,7 +30,7 @@
       },
       {
         "meta": "type=text id=pc-date_range_picker-4 placeholder=Select date range class=form-control flatpickr-input",
-        "value": "2026-09-17 to 2026-09-19",
+        "value": "2026-09-18 to 2026-09-20",
         "visible": true
       },
       {
