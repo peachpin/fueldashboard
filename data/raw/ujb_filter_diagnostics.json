@@ -3,17 +3,17 @@
   "coverage": {
     "requested_start": "2026-09-16",
     "requested_end": "2026-09-22",
-    "observed_start": "2026-09-16",
-    "observed_end": "2026-09-21",
-    "observed_days": 6,
+    "observed_start": "2026-09-21",
+    "observed_end": "2026-09-22",
+    "observed_days": 2,
     "requested_days": 7,
-    "reaches_requested_start": true,
-    "reaches_requested_end": false
+    "reaches_requested_start": false,
+    "reaches_requested_end": true
   },
   "pagination": {
-    "complete": true,
-    "termination_reason": "next_disabled_last_page",
-    "pages_read": 6
+    "complete": false,
+    "termination_reason": "content_unchanged_after_next",
+    "pages_read": 2
   },
   "before": {
     "url": "https://dashboard.ujbgroup.com/report/custom_jict",
@@ -30,7 +30,7 @@
       },
       {
         "meta": "type=text id=pc-date_range_picker-4 placeholder=Select date range class=form-control flatpickr-input",
-        "value": "2026-09-19 to 2026-09-21",
+        "value": "2026-09-20 to 2026-09-22",
         "visible": true
       },
       {
