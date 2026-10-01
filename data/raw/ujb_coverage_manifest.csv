@@ -25,4 +25,4 @@ date,coverage_status,requested_start,requested_end,observed_transactions,evidenc
 2026-09-28,COMPLETE,2026-09-25 00:00:00,2026-10-01 00:00:00,89,pagination_complete:next_disabled_last_page
 2026-09-29,COMPLETE,2026-09-25 00:00:00,2026-10-01 00:00:00,84,pagination_complete:next_disabled_last_page
 2026-09-30,COMPLETE,2026-09-25 00:00:00,2026-10-01 00:00:00,88,pagination_complete:next_disabled_last_page
-2026-10-01,COMPLETE,2026-09-25 00:00:00,2026-10-01 00:00:00,72,pagination_complete:next_disabled_last_page
+2026-10-01,COMPLETE,2026-09-25 00:00:00,2026-10-01 00:00:00,90,pagination_complete:next_disabled_last_page
