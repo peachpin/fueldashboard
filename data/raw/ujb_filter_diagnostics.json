@@ -4,11 +4,11 @@
     "requested_start": "2026-09-28",
     "requested_end": "2026-10-04",
     "observed_start": "2026-09-28",
-    "observed_end": "2026-10-03",
-    "observed_days": 6,
+    "observed_end": "2026-10-04",
+    "observed_days": 7,
     "requested_days": 7,
     "reaches_requested_start": true,
-    "reaches_requested_end": false
+    "reaches_requested_end": true
   },
   "pagination": {
     "complete": true,
