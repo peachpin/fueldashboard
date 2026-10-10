@@ -29,9 +29,10 @@ date,coverage_status,requested_start,requested_end,observed_transactions,evidenc
 2026-10-02,COMPLETE,2026-10-02 00:00:00,2026-10-08 00:00:00,87,pagination_complete:next_disabled_last_page
 2026-10-03,COMPLETE,2026-10-03 00:00:00,2026-10-09 00:00:00,87,pagination_complete:next_disabled_last_page
 2026-10-04,COMPLETE,2026-10-04 00:00:00,2026-10-10 00:00:00,85,pagination_complete:next_disabled_last_page
-2026-10-05,COMPLETE,2026-10-04 00:00:00,2026-10-10 00:00:00,96,pagination_complete:next_disabled_last_page
-2026-10-06,COMPLETE,2026-10-04 00:00:00,2026-10-10 00:00:00,90,pagination_complete:next_disabled_last_page
-2026-10-07,COMPLETE,2026-10-04 00:00:00,2026-10-10 00:00:00,90,pagination_complete:next_disabled_last_page
-2026-10-08,COMPLETE,2026-10-04 00:00:00,2026-10-10 00:00:00,96,pagination_complete:next_disabled_last_page
-2026-10-09,COMPLETE,2026-10-04 00:00:00,2026-10-10 00:00:00,89,pagination_complete:next_disabled_last_page
-2026-10-10,COMPLETE,2026-10-04 00:00:00,2026-10-10 00:00:00,90,pagination_complete:next_disabled_last_page
+2026-10-05,COMPLETE,2026-10-05 00:00:00,2026-10-11 00:00:00,96,pagination_complete:next_disabled_last_page
+2026-10-06,COMPLETE,2026-10-05 00:00:00,2026-10-11 00:00:00,90,pagination_complete:next_disabled_last_page
+2026-10-07,COMPLETE,2026-10-05 00:00:00,2026-10-11 00:00:00,90,pagination_complete:next_disabled_last_page
+2026-10-08,COMPLETE,2026-10-05 00:00:00,2026-10-11 00:00:00,96,pagination_complete:next_disabled_last_page
+2026-10-09,COMPLETE,2026-10-05 00:00:00,2026-10-11 00:00:00,89,pagination_complete:next_disabled_last_page
+2026-10-10,COMPLETE,2026-10-05 00:00:00,2026-10-11 00:00:00,90,pagination_complete:next_disabled_last_page
+2026-10-11,COMPLETE,2026-10-05 00:00:00,2026-10-11 00:00:00,0,pagination_complete:next_disabled_last_page
