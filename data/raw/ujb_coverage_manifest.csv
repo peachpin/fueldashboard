@@ -73,4 +73,4 @@ date,coverage_status,requested_start,requested_end,observed_transactions,evidenc
 2026-11-15,COMPLETE,2026-11-12 00:00:00,2026-11-18 00:00:00,85,pagination_complete:next_disabled_last_page
 2026-11-16,COMPLETE,2026-11-12 00:00:00,2026-11-18 00:00:00,84,pagination_complete:next_disabled_last_page
 2026-11-17,COMPLETE,2026-11-12 00:00:00,2026-11-18 00:00:00,89,pagination_complete:next_disabled_last_page
-2026-11-18,COMPLETE,2026-11-12 00:00:00,2026-11-18 00:00:00,30,pagination_complete:next_disabled_last_page
+2026-11-18,COMPLETE,2026-11-12 00:00:00,2026-11-18 00:00:00,91,pagination_complete:next_disabled_last_page
